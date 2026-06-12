@@ -1,0 +1,201 @@
+{
+    "fixture_id":  "resource_context_pack_policy_fixture_1000G",
+    "stage_code":  "1000G_RESOURCE_CONTEXT_PACK_POLICY_FIXTURE",
+    "fixture_type":  "static_resource_context_pack_policy_fixture_only",
+    "tasks":  [
+                  {
+                      "task_id":  "generate_teaching_work_plan",
+                      "parsed_intent":  "generate_teaching_work_plan",
+                      "target_work_object":  "generate_teaching_work_plan_object",
+                      "required_resource_refs":  [
+                                                     "textbook_catalog_resource",
+                                                     "school_calendar_resource",
+                                                     "curriculum_standard_resource",
+                                                     "work_state_snapshot_resource"
+                                                 ],
+                      "optional_resource_refs":  [
+                                                     "rubric_resource"
+                                                 ],
+                      "excluded_resource_refs":  [
+                                                     "full_chat_history",
+                                                     "full_work_state_dump",
+                                                     "raw_database_dump",
+                                                     "unrelated_lessons",
+                                                     "unrelated_teacher_private_data",
+                                                     "direct_memory_write",
+                                                     "direct_frontend_control",
+                                                     "direct_export"
+                                                 ],
+                      "context_pack":  {
+                                           "included_refs":  [
+                                                                 "textbook_catalog_resource",
+                                                                 "school_calendar_resource",
+                                                                 "curriculum_standard_resource",
+                                                                 "work_state_snapshot_resource"
+                                                             ],
+                                           "current_work_object_scope_only":  true,
+                                           "raw_dump_absent":  true
+                                       },
+                      "estimated_token_budget":  1600,
+                      "trim_reason":  "task_scoped_resource_refs_only",
+                      "forbidden_context_removed":  true
+                  },
+                  {
+                      "task_id":  "generate_lesson_plan",
+                      "parsed_intent":  "generate_lesson_plan",
+                      "target_work_object":  "generate_lesson_plan_object",
+                      "required_resource_refs":  [
+                                                     "lesson_plan_resource",
+                                                     "textbook_catalog_resource",
+                                                     "curriculum_standard_resource",
+                                                     "work_state_snapshot_resource"
+                                                 ],
+                      "optional_resource_refs":  [
+                                                     "rubric_resource"
+                                                 ],
+                      "excluded_resource_refs":  [
+                                                     "full_chat_history",
+                                                     "full_work_state_dump",
+                                                     "raw_database_dump",
+                                                     "unrelated_lessons",
+                                                     "unrelated_teacher_private_data",
+                                                     "direct_memory_write",
+                                                     "direct_frontend_control",
+                                                     "direct_export"
+                                                 ],
+                      "context_pack":  {
+                                           "included_refs":  [
+                                                                 "lesson_plan_resource",
+                                                                 "textbook_catalog_resource",
+                                                                 "curriculum_standard_resource",
+                                                                 "work_state_snapshot_resource"
+                                                             ],
+                                           "current_work_object_scope_only":  true,
+                                           "raw_dump_absent":  true
+                                       },
+                      "estimated_token_budget":  1600,
+                      "trim_reason":  "task_scoped_resource_refs_only",
+                      "forbidden_context_removed":  true
+                  },
+                  {
+                      "task_id":  "generate_handout",
+                      "parsed_intent":  "generate_handout",
+                      "target_work_object":  "generate_handout_object",
+                      "required_resource_refs":  [
+                                                     "lesson_plan_resource",
+                                                     "handout_resource",
+                                                     "teacher_preference_candidate_resource",
+                                                     "work_state_snapshot_resource"
+                                                 ],
+                      "optional_resource_refs":  [
+                                                     "rubric_resource"
+                                                 ],
+                      "excluded_resource_refs":  [
+                                                     "full_chat_history",
+                                                     "full_work_state_dump",
+                                                     "raw_database_dump",
+                                                     "unrelated_lessons",
+                                                     "unrelated_teacher_private_data",
+                                                     "direct_memory_write",
+                                                     "direct_frontend_control",
+                                                     "direct_export"
+                                                 ],
+                      "context_pack":  {
+                                           "included_refs":  [
+                                                                 "lesson_plan_resource",
+                                                                 "handout_resource",
+                                                                 "teacher_preference_candidate_resource",
+                                                                 "work_state_snapshot_resource"
+                                                             ],
+                                           "current_work_object_scope_only":  true,
+                                           "raw_dump_absent":  true
+                                       },
+                      "estimated_token_budget":  1600,
+                      "trim_reason":  "task_scoped_resource_refs_only",
+                      "forbidden_context_removed":  true
+                  },
+                  {
+                      "task_id":  "revise_lesson_section",
+                      "parsed_intent":  "revise_lesson_section",
+                      "target_work_object":  "revise_lesson_section_object",
+                      "required_resource_refs":  [
+                                                     "lesson_plan_resource",
+                                                     "teacher_preference_candidate_resource",
+                                                     "work_state_snapshot_resource"
+                                                 ],
+                      "optional_resource_refs":  [
+                                                     "rubric_resource"
+                                                 ],
+                      "excluded_resource_refs":  [
+                                                     "full_chat_history",
+                                                     "full_work_state_dump",
+                                                     "raw_database_dump",
+                                                     "unrelated_lessons",
+                                                     "unrelated_teacher_private_data",
+                                                     "direct_memory_write",
+                                                     "direct_frontend_control",
+                                                     "direct_export"
+                                                 ],
+                      "context_pack":  {
+                                           "included_refs":  [
+                                                                 "lesson_plan_resource",
+                                                                 "teacher_preference_candidate_resource",
+                                                                 "work_state_snapshot_resource"
+                                                             ],
+                                           "current_work_object_scope_only":  true,
+                                           "raw_dump_absent":  true
+                                       },
+                      "estimated_token_budget":  1600,
+                      "trim_reason":  "task_scoped_resource_refs_only",
+                      "forbidden_context_removed":  true
+                  },
+                  {
+                      "task_id":  "ask_lesson_optimization_question",
+                      "parsed_intent":  "ask_lesson_optimization_question",
+                      "target_work_object":  "ask_lesson_optimization_question_object",
+                      "required_resource_refs":  [
+                                                     "work_state_snapshot_resource",
+                                                     "curriculum_standard_resource"
+                                                 ],
+                      "optional_resource_refs":  [
+                                                     "rubric_resource"
+                                                 ],
+                      "excluded_resource_refs":  [
+                                                     "full_chat_history",
+                                                     "full_work_state_dump",
+                                                     "raw_database_dump",
+                                                     "unrelated_lessons",
+                                                     "unrelated_teacher_private_data",
+                                                     "direct_memory_write",
+                                                     "direct_frontend_control",
+                                                     "direct_export"
+                                                 ],
+                      "context_pack":  {
+                                           "included_refs":  [
+                                                                 "work_state_snapshot_resource",
+                                                                 "curriculum_standard_resource"
+                                                             ],
+                                           "current_work_object_scope_only":  true,
+                                           "raw_dump_absent":  true
+                                       },
+                      "estimated_token_budget":  1600,
+                      "trim_reason":  "task_scoped_resource_refs_only",
+                      "forbidden_context_removed":  true
+                  }
+              ],
+    "boundary_flags":  {
+                           "provider_called":  false,
+                           "model_called":  false,
+                           "api_key_configured":  false,
+                           "real_resource_library_connected":  false,
+                           "database_written":  false,
+                           "memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "classroom_student_runtime_connected":  false,
+                           "provider_sandbox_entered":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false
+                       }
+}
