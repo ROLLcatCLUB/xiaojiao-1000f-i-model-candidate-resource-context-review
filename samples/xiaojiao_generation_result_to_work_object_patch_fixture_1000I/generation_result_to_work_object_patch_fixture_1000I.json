@@ -1,0 +1,157 @@
+{
+    "fixture_id":  "generation_result_to_work_object_patch_fixture_1000I",
+    "stage_code":  "1000I_GENERATION_RESULT_TO_WORK_OBJECT_PATCH_FIXTURE",
+    "fixture_type":  "simulated_generation_result_patch_fixture_only",
+    "simulated_candidate_results":  [
+                                        {
+                                            "result_id":  "simulated_lesson_plan_result",
+                                            "source_candidate_request_id":  "request_lesson_plan_result",
+                                            "pipeline":  [
+                                                             "candidate_result_received",
+                                                             "schema_validation",
+                                                             "normalization",
+                                                             "safety_check",
+                                                             "work_object_patch_created"
+                                                         ],
+                                            "candidate_result_received":  true,
+                                            "schema_validation":  "pass",
+                                            "normalization":  "pass",
+                                            "safety_check":  "pass",
+                                            "teacher_review_required":  true,
+                                            "formal_write_performed":  false,
+                                            "database_written":  false,
+                                            "memory_written":  false,
+                                            "frontend_direct_update":  false,
+                                            "work_object_patch":  {
+                                                                      "patch_id":  "patch_simulated_lesson_plan_result",
+                                                                      "target_work_object":  "simulated_lesson_plan_result_object",
+                                                                      "patch_type":  "candidate_update",
+                                                                      "changed_fields":  [
+                                                                                             "fixture_field"
+                                                                                         ],
+                                                                      "review_status":  "pending_teacher_review",
+                                                                      "source_candidate_request_id":  "request_lesson_plan_result",
+                                                                      "applied":  false,
+                                                                      "rollback_available":  true
+                                                                  }
+                                        },
+                                        {
+                                            "result_id":  "simulated_handout_result",
+                                            "source_candidate_request_id":  "request_handout_result",
+                                            "pipeline":  [
+                                                             "candidate_result_received",
+                                                             "schema_validation",
+                                                             "normalization",
+                                                             "safety_check",
+                                                             "work_object_patch_created"
+                                                         ],
+                                            "candidate_result_received":  true,
+                                            "schema_validation":  "pass",
+                                            "normalization":  "pass",
+                                            "safety_check":  "pass",
+                                            "teacher_review_required":  true,
+                                            "formal_write_performed":  false,
+                                            "database_written":  false,
+                                            "memory_written":  false,
+                                            "frontend_direct_update":  false,
+                                            "work_object_patch":  {
+                                                                      "patch_id":  "patch_simulated_handout_result",
+                                                                      "target_work_object":  "simulated_handout_result_object",
+                                                                      "patch_type":  "candidate_update",
+                                                                      "changed_fields":  [
+                                                                                             "fixture_field"
+                                                                                         ],
+                                                                      "review_status":  "pending_teacher_review",
+                                                                      "source_candidate_request_id":  "request_handout_result",
+                                                                      "applied":  false,
+                                                                      "rollback_available":  true
+                                                                  }
+                                        },
+                                        {
+                                            "result_id":  "simulated_section_revision_result",
+                                            "source_candidate_request_id":  "request_section_revision_result",
+                                            "pipeline":  [
+                                                             "candidate_result_received",
+                                                             "schema_validation",
+                                                             "normalization",
+                                                             "safety_check",
+                                                             "work_object_patch_created"
+                                                         ],
+                                            "candidate_result_received":  true,
+                                            "schema_validation":  "pass",
+                                            "normalization":  "pass",
+                                            "safety_check":  "pass",
+                                            "teacher_review_required":  true,
+                                            "formal_write_performed":  false,
+                                            "database_written":  false,
+                                            "memory_written":  false,
+                                            "frontend_direct_update":  false,
+                                            "work_object_patch":  {
+                                                                      "patch_id":  "patch_simulated_section_revision_result",
+                                                                      "target_work_object":  "simulated_section_revision_result_object",
+                                                                      "patch_type":  "candidate_update",
+                                                                      "changed_fields":  [
+                                                                                             "fixture_field"
+                                                                                         ],
+                                                                      "review_status":  "pending_teacher_review",
+                                                                      "source_candidate_request_id":  "request_section_revision_result",
+                                                                      "applied":  false,
+                                                                      "rollback_available":  true
+                                                                  }
+                                        },
+                                        {
+                                            "result_id":  "simulated_open_question_answer_result",
+                                            "source_candidate_request_id":  "request_open_question_answer_result",
+                                            "pipeline":  [
+                                                             "candidate_result_received",
+                                                             "schema_validation",
+                                                             "normalization",
+                                                             "safety_check",
+                                                             "work_object_patch_created"
+                                                         ],
+                                            "candidate_result_received":  true,
+                                            "schema_validation":  "pass",
+                                            "normalization":  "pass",
+                                            "safety_check":  "pass",
+                                            "teacher_review_required":  true,
+                                            "formal_write_performed":  false,
+                                            "database_written":  false,
+                                            "memory_written":  false,
+                                            "frontend_direct_update":  false,
+                                            "work_object_patch":  {
+                                                                      "patch_id":  "patch_simulated_open_question_answer_result",
+                                                                      "target_work_object":  "simulated_open_question_answer_result_object",
+                                                                      "patch_type":  "candidate_update",
+                                                                      "changed_fields":  [
+                                                                                             "fixture_field"
+                                                                                         ],
+                                                                      "review_status":  "pending_teacher_review",
+                                                                      "source_candidate_request_id":  "request_open_question_answer_result",
+                                                                      "applied":  false,
+                                                                      "rollback_available":  true
+                                                                  }
+                                        }
+                                    ],
+    "validation_rules":  {
+                             "candidate_result_direct_to_formal_document_allowed":  false,
+                             "candidate_result_direct_memory_write_allowed":  false,
+                             "candidate_result_direct_frontend_control_allowed":  false,
+                             "candidate_result_direct_export_allowed":  false,
+                             "teacher_review_gate_required_for_all":  true
+                         },
+    "boundary_flags":  {
+                           "provider_called":  false,
+                           "model_called":  false,
+                           "api_key_configured":  false,
+                           "real_resource_library_connected":  false,
+                           "database_written":  false,
+                           "memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "classroom_student_runtime_connected":  false,
+                           "provider_sandbox_entered":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false
+                       }
+}
