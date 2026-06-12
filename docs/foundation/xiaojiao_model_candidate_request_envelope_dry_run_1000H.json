@@ -1,0 +1,42 @@
+{
+    "package_code":  "1000_XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_PACKAGE",
+    "stage_code":  "1000H_MODEL_CANDIDATE_REQUEST_ENVELOPE_DRY_RUN",
+    "stage_type":  "model_candidate_request_envelope_dry_run_only",
+    "final_status_target":  "XIAOJIAO_MODEL_CANDIDATE_REQUEST_ENVELOPE_DRY_RUN_PASS",
+    "source_gate":  {
+                        "requires_1001_baseline":  "1001_STATE_DRIVEN_INTELLIGENCE_ENGINE_FIXTURE_BASELINE_PASS",
+                        "requires_fixture_baseline_accepted":  true,
+                        "requires_real_engine_implemented":  false,
+                        "source_files":  [
+                                             "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                                             "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_archive.json"
+                                         ]
+                    },
+    "forbidden_resource_refs":  [
+                                    "full_chat_history",
+                                    "full_work_state_dump",
+                                    "raw_database_dump",
+                                    "unrelated_lessons",
+                                    "unrelated_teacher_private_data",
+                                    "direct_memory_write",
+                                    "direct_frontend_control",
+                                    "direct_export"
+                                ],
+    "hard_boundaries":  {
+                            "provider_call_allowed":  false,
+                            "model_call_allowed":  false,
+                            "api_key_configuration_allowed":  false,
+                            "real_resource_library_connection_allowed":  false,
+                            "database_write_allowed":  false,
+                            "memory_write_allowed":  false,
+                            "Feishu_write_allowed":  false,
+                            "formal_export_allowed":  false,
+                            "real_frontend_runtime_modification_allowed":  false,
+                            "classroom_student_runtime_allowed":  false,
+                            "provider_sandbox_allowed":  false,
+                            "production_generation_allowed":  false,
+                            "formal_writeback_allowed":  false
+                        },
+    "next_stage":  "1000I_GENERATION_RESULT_TO_WORK_OBJECT_PATCH_FIXTURE_PENDING_REVIEW",
+    "deferred_stage":  "PROVIDER_SANDBOX_PENDING_USER_DECISION"
+}
