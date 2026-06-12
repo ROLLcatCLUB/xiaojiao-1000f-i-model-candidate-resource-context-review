@@ -1,0 +1,121 @@
+{
+    "fixture_id":  "model_candidate_request_envelope_dry_run_1000H",
+    "stage_code":  "1000H_MODEL_CANDIDATE_REQUEST_ENVELOPE_DRY_RUN",
+    "fixture_type":  "model_candidate_request_envelope_dry_run_only",
+    "candidate_requests":  [
+                               {
+                                   "request_id":  "lesson_plan_candidate_request",
+                                   "task_type":  "lesson_plan",
+                                   "target_work_object":  "lesson_plan_candidate_request_object",
+                                   "context_pack_ref":  "context_pack_lesson_plan_candidate_request",
+                                   "prompt_policy_ref":  "structured_output_review_required_policy",
+                                   "input_summary":  "fixture summary only",
+                                   "expected_output_schema":  [
+                                                                  "lesson_title",
+                                                                  "grade",
+                                                                  "objectives",
+                                                                  "key_activities",
+                                                                  "time_allocation",
+                                                                  "materials",
+                                                                  "risks",
+                                                                  "review_required"
+                                                              ],
+                                   "token_budget":  1800,
+                                   "cost_tier_candidate":  "low_or_standard_candidate",
+                                   "provider_allowed":  false,
+                                   "provider_called":  false,
+                                   "model_called":  false,
+                                   "generated_content_absent":  true,
+                                   "expected_result_route":  "candidate_result_to_1000I_patch_fixture"
+                               },
+                               {
+                                   "request_id":  "handout_candidate_request",
+                                   "task_type":  "handout",
+                                   "target_work_object":  "handout_candidate_request_object",
+                                   "context_pack_ref":  "context_pack_handout_candidate_request",
+                                   "prompt_policy_ref":  "structured_output_review_required_policy",
+                                   "input_summary":  "fixture summary only",
+                                   "expected_output_schema":  [
+                                                                  "title",
+                                                                  "learning_goal",
+                                                                  "task_items",
+                                                                  "student_prompt",
+                                                                  "self_check",
+                                                                  "difficulty_level",
+                                                                  "review_required"
+                                                              ],
+                                   "token_budget":  1800,
+                                   "cost_tier_candidate":  "low_or_standard_candidate",
+                                   "provider_allowed":  false,
+                                   "provider_called":  false,
+                                   "model_called":  false,
+                                   "generated_content_absent":  true,
+                                   "expected_result_route":  "candidate_result_to_1000I_patch_fixture"
+                               },
+                               {
+                                   "request_id":  "section_revision_candidate_request",
+                                   "task_type":  "section_revision",
+                                   "target_work_object":  "section_revision_candidate_request_object",
+                                   "context_pack_ref":  "context_pack_section_revision_candidate_request",
+                                   "prompt_policy_ref":  "structured_output_review_required_policy",
+                                   "input_summary":  "fixture summary only",
+                                   "expected_output_schema":  [
+                                                                  "section_id",
+                                                                  "original_text_ref",
+                                                                  "revised_text_candidate",
+                                                                  "revision_reason",
+                                                                  "teacher_review_required"
+                                                              ],
+                                   "token_budget":  1800,
+                                   "cost_tier_candidate":  "low_or_standard_candidate",
+                                   "provider_allowed":  false,
+                                   "provider_called":  false,
+                                   "model_called":  false,
+                                   "generated_content_absent":  true,
+                                   "expected_result_route":  "candidate_result_to_1000I_patch_fixture"
+                               },
+                               {
+                                   "request_id":  "open_lesson_question_candidate_request",
+                                   "task_type":  "open_lesson_question",
+                                   "target_work_object":  "open_lesson_question_candidate_request_object",
+                                   "context_pack_ref":  "context_pack_open_lesson_question_candidate_request",
+                                   "prompt_policy_ref":  "structured_output_review_required_policy",
+                                   "input_summary":  "fixture summary only",
+                                   "expected_output_schema":  [
+                                                                  "answer_summary",
+                                                                  "reasoning_points",
+                                                                  "suggested_next_actions",
+                                                                  "teacher_review_required"
+                                                              ],
+                                   "token_budget":  1800,
+                                   "cost_tier_candidate":  "low_or_standard_candidate",
+                                   "provider_allowed":  false,
+                                   "provider_called":  false,
+                                   "model_called":  false,
+                                   "generated_content_absent":  true,
+                                   "expected_result_route":  "candidate_result_to_1000I_patch_fixture"
+                               }
+                           ],
+    "forbidden_output_modes":  [
+                                   "natural_language_only_output",
+                                   "direct_frontend_render",
+                                   "direct_database_write",
+                                   "direct_memory_write",
+                                   "formal_export"
+                               ],
+    "boundary_flags":  {
+                           "provider_called":  false,
+                           "model_called":  false,
+                           "api_key_configured":  false,
+                           "real_resource_library_connected":  false,
+                           "database_written":  false,
+                           "memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "classroom_student_runtime_connected":  false,
+                           "provider_sandbox_entered":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false
+                       }
+}
