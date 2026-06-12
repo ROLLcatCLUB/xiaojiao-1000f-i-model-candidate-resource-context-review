@@ -1,0 +1,26 @@
+{
+    "stage_code":  "1000F_MODEL_CANDIDATE_AND_RESOURCE_CONTEXT_INTEGRATION_CONTRACT",
+    "final_status":  "XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_INTEGRATION_CONTRACT_PASS",
+    "pass":  true,
+    "marker":  "ALL_1000F_MODEL_CANDIDATE_RESOURCE_CONTEXT_INTEGRATION_CONTRACT_CHECKS_OK",
+    "fixture_only":  true,
+    "validator_no_arg_pass":  true,
+    "validator_root_pass":  true,
+    "manifest_zip_alignment_pass":  true,
+    "boundary_flags":  {
+                           "provider_called":  false,
+                           "model_called":  false,
+                           "api_key_configured":  false,
+                           "real_resource_library_connected":  false,
+                           "database_written":  false,
+                           "memory_written":  false,
+                           "Feishu_written":  false,
+                           "formal_export_created":  false,
+                           "real_frontend_runtime_modified":  false,
+                           "classroom_student_runtime_connected":  false,
+                           "provider_sandbox_entered":  false,
+                           "production_generation_performed":  false,
+                           "formal_writeback_performed":  false
+                       },
+    "next_stage":  "1000G_RESOURCE_CONTEXT_PACK_POLICY_FIXTURE_PENDING_REVIEW"
+}
