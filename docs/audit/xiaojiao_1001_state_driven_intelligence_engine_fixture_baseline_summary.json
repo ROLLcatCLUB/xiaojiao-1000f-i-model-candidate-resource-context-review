@@ -1,0 +1,19 @@
+{
+    "summary_date":  "2026-06-13",
+    "summary_code":  "1001_STATE_DRIVEN_INTELLIGENCE_ENGINE_FIXTURE_BASELINE_PASS",
+    "accepted_stages":  {
+                            "1001A":  "accepted",
+                            "1001B":  "accepted",
+                            "1001C":  "accepted",
+                            "1001D":  "accepted",
+                            "1001D_R1":  "accepted",
+                            "1001E_G":  "accepted"
+                        },
+    "real_engine_implemented":  false,
+    "provider_model_called":  false,
+    "database_written":  false,
+    "memory_written":  false,
+    "real_frontend_changed":  false,
+    "entered_1000F_provider_apply":  false,
+    "source_archive":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_archive.json"
+}
