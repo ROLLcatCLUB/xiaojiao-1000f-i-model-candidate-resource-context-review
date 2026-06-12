@@ -1,0 +1,63 @@
+{
+    "package_code":  "1000_XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_PACKAGE",
+    "stage_code":  "1000F_MODEL_CANDIDATE_AND_RESOURCE_CONTEXT_INTEGRATION_CONTRACT",
+    "stage_type":  "model_candidate_resource_context_integration_contract_only",
+    "final_status_target":  "XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_INTEGRATION_CONTRACT_PASS",
+    "source_gate":  {
+                        "requires_1001_baseline":  "1001_STATE_DRIVEN_INTELLIGENCE_ENGINE_FIXTURE_BASELINE_PASS",
+                        "requires_fixture_baseline_accepted":  true,
+                        "requires_real_engine_implemented":  false,
+                        "source_files":  [
+                                             "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                                             "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_archive.json"
+                                         ]
+                    },
+    "forbidden_resource_refs":  [
+                                    "full_chat_history",
+                                    "full_work_state_dump",
+                                    "raw_database_dump",
+                                    "unrelated_lessons",
+                                    "unrelated_teacher_private_data",
+                                    "direct_memory_write",
+                                    "direct_frontend_control",
+                                    "direct_export"
+                                ],
+    "hard_boundaries":  {
+                            "provider_call_allowed":  false,
+                            "model_call_allowed":  false,
+                            "api_key_configuration_allowed":  false,
+                            "real_resource_library_connection_allowed":  false,
+                            "database_write_allowed":  false,
+                            "memory_write_allowed":  false,
+                            "Feishu_write_allowed":  false,
+                            "formal_export_allowed":  false,
+                            "real_frontend_runtime_modification_allowed":  false,
+                            "classroom_student_runtime_allowed":  false,
+                            "provider_sandbox_allowed":  false,
+                            "production_generation_allowed":  false,
+                            "formal_writeback_allowed":  false
+                        },
+    "next_stage":  "1000G_RESOURCE_CONTEXT_PACK_POLICY_FIXTURE_PENDING_REVIEW",
+    "deferred_stage":  "PROVIDER_SANDBOX_PENDING_USER_DECISION",
+    "resource_context_registry":  [
+                                      "textbook_catalog_resource",
+                                      "school_calendar_resource",
+                                      "lesson_plan_resource",
+                                      "handout_resource",
+                                      "rubric_resource",
+                                      "curriculum_standard_resource",
+                                      "teacher_preference_candidate_resource",
+                                      "work_state_snapshot_resource"
+                                  ],
+    "required_contract_parts":  [
+                                    "resource_context_registry",
+                                    "resource_context_ref",
+                                    "allowed_resource_refs",
+                                    "forbidden_resource_refs",
+                                    "context_pack_policy",
+                                    "model_candidate_envelope",
+                                    "token_budget_policy",
+                                    "safety_boundary",
+                                    "no_direct_provider_call_policy"
+                                ]
+}
