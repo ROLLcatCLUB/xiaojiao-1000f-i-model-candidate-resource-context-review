@@ -1,0 +1,87 @@
+{
+    "package_name":  "xiaojiao_generation_result_to_work_object_patch_fixture_1000I",
+    "package_code":  "1000_XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_PACKAGE",
+    "stage_code":  "1000I_GENERATION_RESULT_TO_WORK_OBJECT_PATCH_FIXTURE",
+    "final_status":  "XIAOJIAO_GENERATION_RESULT_TO_WORK_OBJECT_PATCH_FIXTURE_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_generation_result_to_work_object_patch_fixture_1000I.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  9,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.md",
+                        "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                        "docs/foundation/xiaojiao_generation_result_to_work_object_patch_fixture_1000I.md",
+                        "docs/foundation/xiaojiao_generation_result_to_work_object_patch_fixture_1000I.json",
+                        "samples/xiaojiao_generation_result_to_work_object_patch_fixture_1000I/generation_result_to_work_object_patch_fixture_1000I.json",
+                        "docs/audit/xiaojiao_generation_result_to_work_object_patch_fixture_1000I_result.json",
+                        "docs/audit/xiaojiao_generation_result_to_work_object_patch_fixture_1000I_report.md",
+                        "docs/audit_packages/xiaojiao_generation_result_to_work_object_patch_fixture_1000I_manifest.json",
+                        "scripts/validate_xiaojiao_generation_result_to_work_object_patch_fixture_1000I.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.md",
+                        "size":  452,
+                        "sha256":  "FC8DB12821EA7E51EFA18D2B8401D324F2F29DB252AEA710776690A1EC16689A"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                        "size":  829,
+                        "sha256":  "18CC7C11E9BE547CE4FE621B7A42ABF25EA3722E7115770372F80D53C616C5E4"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_generation_result_to_work_object_patch_fixture_1000I.md",
+                        "size":  500,
+                        "sha256":  "A316C3323EBAEBE5C5C638424BAEF4C4053B28327FF2D9A53CFE5FD80B081730"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_generation_result_to_work_object_patch_fixture_1000I.json",
+                        "size":  2607,
+                        "sha256":  "D34C2FB822C51B8AFA6B61B70AE4CA1ED8EA1BDFE41EB31FAACC8AE49CE6237C"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_generation_result_to_work_object_patch_fixture_1000I/generation_result_to_work_object_patch_fixture_1000I.json",
+                        "size":  12639,
+                        "sha256":  "936563841AB62F2E19C223D1A28AFA28C433E3FF582C35DCED8378E2AAB4AD4C"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_generation_result_to_work_object_patch_fixture_1000I_result.json",
+                        "size":  1341,
+                        "sha256":  "0273DDEBD16B8EE328B9F6ABF126C5E5AC05A3B6E815EC9498D6A3AA2E5BF080"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_generation_result_to_work_object_patch_fixture_1000I_report.md",
+                        "size":  399,
+                        "sha256":  "7F012CB30DD90E8ADC2285362D31EB72B7CFDE63AD5DB179CE0825ED800A8150"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_generation_result_to_work_object_patch_fixture_1000I_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL",
+                        "sha256_policy":  "manifest self hash is intentionally not materialized because the manifest contains its own metadata"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_generation_result_to_work_object_patch_fixture_1000I.py",
+                        "size":  6735,
+                        "sha256":  "147147EFB2CE22796200ED4DA688C18E73DDFACD01E6A616F0CD1237C98797DD"
+                    }
+                ],
+    "boundary":  {
+                     "provider_called":  false,
+                     "model_called":  false,
+                     "database_written":  false,
+                     "memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_modified":  false,
+                     "runtime_connected":  false,
+                     "student_side_entered":  false,
+                     "provider_sandbox_entered":  false
+                 }
+}
