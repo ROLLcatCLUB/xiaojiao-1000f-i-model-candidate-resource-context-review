@@ -1,0 +1,112 @@
+{
+    "fixture_id":  "resource_context_contract_sample_1000F",
+    "stage_code":  "1000F_MODEL_CANDIDATE_AND_RESOURCE_CONTEXT_INTEGRATION_CONTRACT",
+    "fixture_type":  "contract_sample_only",
+    "resource_context_registry":  [
+                                      {
+                                          "resource_type":  "textbook_catalog_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "school_calendar_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "lesson_plan_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "handout_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "rubric_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "curriculum_standard_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "teacher_preference_candidate_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      },
+                                      {
+                                          "resource_type":  "work_state_snapshot_resource",
+                                          "access_mode":  "fixture_readonly_ref",
+                                          "direct_raw_dump_allowed":  false
+                                      }
+                                  ],
+    "resource_context_ref_schema":  {
+                                        "resource_ref_id":  "string",
+                                        "resource_type":  "one_of_registry",
+                                        "source_label":  "string",
+                                        "freshness":  "fixture_only",
+                                        "allowed_in_model_candidate_request":  true
+                                    },
+    "allowed_resource_refs":  [
+                                  "textbook_catalog_resource",
+                                  "school_calendar_resource",
+                                  "lesson_plan_resource",
+                                  "handout_resource",
+                                  "rubric_resource",
+                                  "curriculum_standard_resource",
+                                  "teacher_preference_candidate_resource",
+                                  "work_state_snapshot_resource"
+                              ],
+    "forbidden_resource_refs":  [
+                                    "full_chat_history",
+                                    "full_work_state_dump",
+                                    "raw_database_dump",
+                                    "unrelated_lessons",
+                                    "unrelated_teacher_private_data",
+                                    "direct_memory_write",
+                                    "direct_frontend_control",
+                                    "direct_export"
+                                ],
+    "context_pack_policy":  {
+                                "select_by_task_type":  true,
+                                "include_only_relevant_work_object_scope":  true,
+                                "summarize_large_resources":  true,
+                                "cite_resource_refs_not_raw_dumps":  true
+                            },
+    "model_candidate_envelope":  {
+                                     "provider_allowed":  false,
+                                     "provider_called":  false,
+                                     "model_called":  false,
+                                     "generated_content_absent":  true,
+                                     "contains_context_pack_ref":  true
+                                 },
+    "token_budget_policy":  {
+                                "default_max_input_tokens":  1800,
+                                "high_context_max_input_tokens":  3200,
+                                "reject_if_requires_full_dump":  true
+                            },
+    "safety_boundary":  {
+                            "provider_called":  false,
+                            "model_called":  false,
+                            "api_key_configured":  false,
+                            "real_resource_library_connected":  false,
+                            "database_written":  false,
+                            "memory_written":  false,
+                            "Feishu_written":  false,
+                            "formal_export_created":  false,
+                            "real_frontend_runtime_modified":  false,
+                            "classroom_student_runtime_connected":  false,
+                            "provider_sandbox_entered":  false,
+                            "production_generation_performed":  false,
+                            "formal_writeback_performed":  false
+                        },
+    "no_direct_provider_call_policy":  {
+                                           "provider_called":  false,
+                                           "model_called":  false,
+                                           "provider_sandbox_entered":  false
+                                       }
+}
