@@ -1,0 +1,87 @@
+{
+    "package_name":  "xiaojiao_resource_context_pack_policy_fixture_1000G",
+    "package_code":  "1000_XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_PACKAGE",
+    "stage_code":  "1000G_RESOURCE_CONTEXT_PACK_POLICY_FIXTURE",
+    "final_status":  "XIAOJIAO_RESOURCE_CONTEXT_PACK_POLICY_FIXTURE_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_resource_context_pack_policy_fixture_1000G.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  9,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.md",
+                        "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                        "docs/foundation/xiaojiao_resource_context_pack_policy_fixture_1000G.md",
+                        "docs/foundation/xiaojiao_resource_context_pack_policy_fixture_1000G.json",
+                        "samples/xiaojiao_resource_context_pack_policy_fixture_1000G/resource_context_pack_policy_fixture_1000G.json",
+                        "docs/audit/xiaojiao_resource_context_pack_policy_fixture_1000G_result.json",
+                        "docs/audit/xiaojiao_resource_context_pack_policy_fixture_1000G_report.md",
+                        "docs/audit_packages/xiaojiao_resource_context_pack_policy_fixture_1000G_manifest.json",
+                        "scripts/validate_xiaojiao_resource_context_pack_policy_fixture_1000G.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.md",
+                        "size":  452,
+                        "sha256":  "FC8DB12821EA7E51EFA18D2B8401D324F2F29DB252AEA710776690A1EC16689A"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                        "size":  829,
+                        "sha256":  "18CC7C11E9BE547CE4FE621B7A42ABF25EA3722E7115770372F80D53C616C5E4"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_resource_context_pack_policy_fixture_1000G.md",
+                        "size":  497,
+                        "sha256":  "2068B5E5E83DBDA78D9C37D18B601DA25BF0831D3177B5241C6E2370464FC5B0"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_resource_context_pack_policy_fixture_1000G.json",
+                        "size":  2594,
+                        "sha256":  "8CCBC02936DCDB018AB9A60B7D96D84B512F329083543813E2248C9DE9147200"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_resource_context_pack_policy_fixture_1000G/resource_context_pack_policy_fixture_1000G.json",
+                        "size":  13237,
+                        "sha256":  "EB3F69D83ADBE808186698FA4E956629EB89E376DCD980B0341CC04EEA943D88"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_resource_context_pack_policy_fixture_1000G_result.json",
+                        "size":  1328,
+                        "sha256":  "11254E3C379F6F7F794757D1E2E508CE43E6C0C870524D6C9A0734C44DFD049C"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_resource_context_pack_policy_fixture_1000G_report.md",
+                        "size":  369,
+                        "sha256":  "8B19AB40A9608FFDBCE4CCBB1FC3F674791381D89652517D49732324913534E7"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_resource_context_pack_policy_fixture_1000G_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL",
+                        "sha256_policy":  "manifest self hash is intentionally not materialized because the manifest contains its own metadata"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_resource_context_pack_policy_fixture_1000G.py",
+                        "size":  6685,
+                        "sha256":  "A5AABD0AF8EE17E5E2BE3C9F287B497679E9DC6F78BB3AD6AF10BBF070070065"
+                    }
+                ],
+    "boundary":  {
+                     "provider_called":  false,
+                     "model_called":  false,
+                     "database_written":  false,
+                     "memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_modified":  false,
+                     "runtime_connected":  false,
+                     "student_side_entered":  false,
+                     "provider_sandbox_entered":  false
+                 }
+}
