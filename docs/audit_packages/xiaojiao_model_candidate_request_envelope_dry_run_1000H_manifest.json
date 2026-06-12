@@ -1,0 +1,87 @@
+{
+    "package_name":  "xiaojiao_model_candidate_request_envelope_dry_run_1000H",
+    "package_code":  "1000_XIAOJIAO_MODEL_CANDIDATE_RESOURCE_CONTEXT_PACKAGE",
+    "stage_code":  "1000H_MODEL_CANDIDATE_REQUEST_ENVELOPE_DRY_RUN",
+    "final_status":  "XIAOJIAO_MODEL_CANDIDATE_REQUEST_ENVELOPE_DRY_RUN_PASS",
+    "generated_at":  "2026-06-13T00:00:00+08:00",
+    "zip_path":  "docs/audit_packages/xiaojiao_model_candidate_request_envelope_dry_run_1000H.zip",
+    "zip_sha256":  "EXTERNAL_RECOMPUTATION_REQUIRED",
+    "zip_entry_count":  9,
+    "manifest_minus_zip":  [
+
+                           ],
+    "zip_minus_manifest":  [
+
+                           ],
+    "zip_entries":  [
+                        "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.md",
+                        "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                        "docs/foundation/xiaojiao_model_candidate_request_envelope_dry_run_1000H.md",
+                        "docs/foundation/xiaojiao_model_candidate_request_envelope_dry_run_1000H.json",
+                        "samples/xiaojiao_model_candidate_request_envelope_dry_run_1000H/model_candidate_request_envelope_dry_run_1000H.json",
+                        "docs/audit/xiaojiao_model_candidate_request_envelope_dry_run_1000H_result.json",
+                        "docs/audit/xiaojiao_model_candidate_request_envelope_dry_run_1000H_report.md",
+                        "docs/audit_packages/xiaojiao_model_candidate_request_envelope_dry_run_1000H_manifest.json",
+                        "scripts/validate_xiaojiao_model_candidate_request_envelope_dry_run_1000H.py"
+                    ],
+    "entries":  [
+                    {
+                        "path":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.md",
+                        "size":  452,
+                        "sha256":  "FC8DB12821EA7E51EFA18D2B8401D324F2F29DB252AEA710776690A1EC16689A"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_1001_state_driven_intelligence_engine_fixture_baseline_summary.json",
+                        "size":  829,
+                        "sha256":  "18CC7C11E9BE547CE4FE621B7A42ABF25EA3722E7115770372F80D53C616C5E4"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_model_candidate_request_envelope_dry_run_1000H.md",
+                        "size":  511,
+                        "sha256":  "CE910E73B96A53CAE0C4C8EC7639461045700DDD73D3FD327454731C12A7727B"
+                    },
+                    {
+                        "path":  "docs/foundation/xiaojiao_model_candidate_request_envelope_dry_run_1000H.json",
+                        "size":  2612,
+                        "sha256":  "BB705C4A7F432B0EEA35E274B4ADE1B80633784BF6B19C717C09CB57C16D6B0D"
+                    },
+                    {
+                        "path":  "samples/xiaojiao_model_candidate_request_envelope_dry_run_1000H/model_candidate_request_envelope_dry_run_1000H.json",
+                        "size":  8538,
+                        "sha256":  "CEA64C9333E3218583263F9264387C8E2206D348BAC054550B46208F496172C9"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_model_candidate_request_envelope_dry_run_1000H_result.json",
+                        "size":  1346,
+                        "sha256":  "92369EB81412EBCE6FAAA9E69EA6A46A3A512FFAE3C70D6CA74BA273C5175059"
+                    },
+                    {
+                        "path":  "docs/audit/xiaojiao_model_candidate_request_envelope_dry_run_1000H_report.md",
+                        "size":  381,
+                        "sha256":  "C763255B69D5EB0D593380B09B99F2A8624355BF64F1139ACE9C3816D20FDCE5"
+                    },
+                    {
+                        "path":  "docs/audit_packages/xiaojiao_model_candidate_request_envelope_dry_run_1000H_manifest.json",
+                        "size":  null,
+                        "sha256":  "SELF_REFERENTIAL",
+                        "sha256_policy":  "manifest self hash is intentionally not materialized because the manifest contains its own metadata"
+                    },
+                    {
+                        "path":  "scripts/validate_xiaojiao_model_candidate_request_envelope_dry_run_1000H.py",
+                        "size":  6705,
+                        "sha256":  "355179E82CBEE17CC4918C388F4520D72DD6F2433E8FABF06C3B3598408A2137"
+                    }
+                ],
+    "boundary":  {
+                     "provider_called":  false,
+                     "model_called":  false,
+                     "database_written":  false,
+                     "memory_written":  false,
+                     "Feishu_written":  false,
+                     "formal_export_created":  false,
+                     "real_frontend_modified":  false,
+                     "runtime_connected":  false,
+                     "student_side_entered":  false,
+                     "provider_sandbox_entered":  false
+                 }
+}
